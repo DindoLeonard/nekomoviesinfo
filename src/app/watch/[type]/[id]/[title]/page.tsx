@@ -76,7 +76,7 @@ export default async function Watch({ params, searchParams }: Props) {
     <main className="bg-background flex flex-col items-center min-h-screen p-2">
       <div className="space-y-3 lg:w-[80vw]">
         <div>
-          <VideoPlayerVidSrc
+          {/* <VideoPlayerVidSrc
             src={
               `https://vidsrc.cc/v2/embed/${type}/${
                 (mediaInfo?.mappings as unknown as any)?.imdb
@@ -84,7 +84,7 @@ export default async function Watch({ params, searchParams }: Props) {
               `${searchParams?.season ? `/${searchParams.season}` : ``}` +
               `${searchParams?.episode ? `/${searchParams.episode}` : ""}`
             }
-          />
+          /> */}
           {/* <VideoPlayer src={mediaId}/> */}
         </div>
         {movieSeasons?.length > 0 && (
